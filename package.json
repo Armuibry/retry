@@ -1,0 +1,42 @@
+{
+  "name": "retry-breaker",
+  "version": "1.0.0",
+  "description": "This package includes all five patterns (Retry, Circuit Breaker, Timeouts, Fallback, and Bulkhead) to handle various resilience scenarios.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-username>/retry-breaker.git"
+  },
+  "keywords": [
+    "retry",
+    "circuit-breaker",
+    "timeout",
+    "fallback",
+    "bulkhead",
+    "resilience",
+    "javascript",
+    "npm"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "author": "Md Amir Sohail <mdamirsohail1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.2.5"
+  }
+}
